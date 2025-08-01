@@ -8,7 +8,7 @@ import { IKImage } from "imagekitio-next";
 import { IMAGE_VARIANTS } from "@/models/Product";
 import { apiClient } from "@/lib/api-client";
 
-export default function OrdersPage() {
+export const OrdersPage =()=> {
   const [orders, setOrders] = useState<IOrder[]>([]);
   const [loading, setLoading] = useState(true);
   const { data: session } = useSession();

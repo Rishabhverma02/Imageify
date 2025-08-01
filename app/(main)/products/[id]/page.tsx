@@ -10,7 +10,7 @@ import {
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { Loader2, AlertCircle, Check, Image as ImageIcon } from "lucide-react";
-import { useNotification } from "@/app/components/Notification";
+import { useNotification } from "@/app/(main)/components/Notification";
 import { useSession } from "next-auth/react";
 import { apiClient } from "@/lib/api-client";
 
